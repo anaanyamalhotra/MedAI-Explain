@@ -12,8 +12,8 @@ app = FastAPI()
 # Load model and scaler
 MODEL_PATH = "model/diabetes_model.pkl"
 SCALER_PATH = "model/diabetes_scaler.pkl"
-model = joblib.load(MODEL_PATH)
-scaler = joblib.load(SCALER_PATH)
+model = joblib.load("diabetes_model.pkl")
+scaler = joblib.load("diabetes_scaler.pkl")
 
 # Input data model
 class PatientData(BaseModel):
