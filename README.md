@@ -1,6 +1,6 @@
 # 🧠 MedAI Explain – LLM-Powered Diabetes Risk Explainer
 
-**Live API:** (host it on Render or HuggingFace Spaces)  
+**Live Demo:** https://medai-explain-frontend.streamlit.app/
 **Author:** Ananya Malhotra
 
 ---
